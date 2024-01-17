@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ptr"
+version = "0.1.0"
+description = ""
+authors = ["rosoporto <rosoporto@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+say-hi = "scripts.say_hi:main"
+run-me = "ptr.module.run_me:main"
+main = "ptr.main:main"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
