@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 colorama = "^0.4.6"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.scripts]
 say-hi = "scripts.say_hi:main"
