@@ -18,6 +18,7 @@ main = "ptr.main:main"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.20.0"
+flake8 = "^7.0.0"
 
 [build-system]
 requires = ["poetry-core"]
